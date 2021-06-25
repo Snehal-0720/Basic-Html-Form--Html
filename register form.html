@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Register Form</title>
+    </head>
+    <body style="background-color:mintcream">    
+       <center> <img src="img/profile.png" alt="profile" width="200" height="140" align="center"></center>
+         <h1 align="center" style="font-size: 30px;"><u>Registration Form</u></h1>
+        <fieldset>
+            <legend>Name</legend>
+            <label>Firstname<input type="text" name="firstname"></label>
+            <label>Lastname<input type="text" name="Lastname"></label>
+        </fieldset>
+         <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="male">Male</label><br>
+            <label><input type="radio" name="gender" value="female">Female</label><br>
+            <label><input type="radio" name="gender" value="others">Others</label>
+        </fieldset>
+          <br>
+          <fieldset>
+              <legend>Education</legend>
+              <label>College Name<input type="text" name="college name"></label>
+              <label>University Name<input type="text" name="university name"></label>
+          </fieldset>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <labe><input type="checkbox" name="hobbies" value="Dancing">Dancing</label>
+            <label><input type="checkbox" name="hobbies"value="Singing">Singing</label>    
+            <label><input type="checkbox" name="hobbies" value="Playing">Playing</label>
+        </fieldset>
+            <br>
+        <fieldset>
+            <label>Department</label>
+            <select name="Department">
+            <option value="Computer Science">Cs</option>
+            <option value="Information Technology">IT</option>
+            <option value="Electronic and Communication">ECE</option>
+            <option value="Mechanical">MECH</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Self Details</legend>
+            <label>Email Address <input type="email" name="email"></label>
+            <label>Phone number <input type="text" name="phone"></label>
+            <label>Address <textarea name="address" cols="30" rows="2"></textarea></label>
+            <h3>Date in dd-mm-yyyy</h3>
+            <label for="start">Enter date</label>
+            <input type="date" name="begin" placeholder="dd-mm-yyyy " min="1997-01-01" max="2030-12-31">
+        </fieldset><br><br>
+      <input type="submit" value="Submit" style="background-color: black; color:white; width:120px; height:35px; position:absolute; right:750px; font-size:15px">
+       <input type="reset" value="Reset" style="background-color: black; color:white; width:120px; height:35px; position:absolute; right:610px;font-size:15px;"><br><br>
+    </body>
+</html>
